@@ -1,0 +1,56 @@
+:root {
+  font-size: 1rem;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.container {
+  text-align: center;
+}
+.image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+.navmenu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #A0B9C8;
+}
+.navmenu a:hover {
+  text-decoration: underline;
+}
+
+/* star */
+
+.clipstarshape {
+  clip-path: url(#star-cp);
+  
+  width: 40vh;
+  height: 40vh;
+  max-height: 40vh;
+  max-width: 40vh;
+  
+  background-size: cover;
+  background-blend-mode: screen;
+  margin: auto;
+}
+
+.clipcontent {
+  /* background-color: rgb(20 83 45); */
+  background-image: url("assets/starlove.jpg");
+}
